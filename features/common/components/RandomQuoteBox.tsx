@@ -24,12 +24,12 @@ const RandomQuoteBox = () => {
   }
 
   return (
-    <div className="random__quote flex flex-col relative justify-center items-center w-[450px] shadow-xl rounded-md p-6 border border-black/5 mt-[100px]">
+    <div className="random__quote flex flex-col relative justify-center items-center w-[450px] shadow-xl rounded-md p-6 border border-black/5">
       <div className="flex relative">
         <Image src={"/images/bg-quote-img.png"} alt="" fill draggable={false} />
       </div>
 
-      <IconQuoteMark className="fill-[#F583A7] size-[90px]  flex-shrink-0" />
+      <IconQuoteMark className="fill-[#F583A7] size-[90px] flex-shrink-0" />
 
       <p className="text-2xl text-[#354AA4] italic font-bold text-center max-w-[360px]">
         {currentQuote.text}

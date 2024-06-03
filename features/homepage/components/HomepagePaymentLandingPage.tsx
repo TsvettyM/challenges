@@ -20,8 +20,8 @@ const HomepagePaymentLandingPage = () => {
   }
 
   return (
-    <section className="homepage__payment--page max-w-[700px] md:max-w-[900px] lg:max-w-[1200px] mx-auto flex justify-center items-center w-full h-full p-5 my-10 md:my-auto">
-      <div className="bg-[#2C292C] rounded-lg w-full h-auto">
+    <section className="homepage__payment--page flex justify-center items-center w-full h-full py-20 bg-teal-200">
+      <div className="max-w-[700px] md:max-w-[900px] lg:max-w-[1200px] mx-auto bg-[#2C292C] rounded-lg w-full h-auto p-5">
         <div className="container">
           <header className="flex items-center w-full py-6">
             <IconLogo className="mr-auto w-8 h-8" />

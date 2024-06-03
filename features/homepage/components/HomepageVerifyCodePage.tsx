@@ -6,7 +6,7 @@ const HomepageVerifyCodePage: React.FC = () => {
   const [isLoading, setIsLoading] = useState(false);
 
   return (
-    <section className="homepage__verification flex flex-col justify-center items-center pt-20">
+    <section className="homepage__verification flex flex-col justify-center items-center py-20 w-full bg-black">
       <form className="flex flex-col justify-center items-center bg-[#252B43] w-full max-w-[700px] rounded-xl px-7 pb-8">
         <h4 className="text-2xl text-[#B2B7D3] font-bold mt-20 mb-2">
           Verify your email address

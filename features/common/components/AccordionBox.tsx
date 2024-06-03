@@ -41,22 +41,24 @@ const AccordionBox = ({ style, question, answer }: IProps) => {
         }
       )}
     >
-      <div className="flex items-center">
+      <button
+        className="flex items-center w-full"
+        type="button"
+        onClick={showPost}
+      >
         <h4>{question}</h4>
 
         <div className="drop__button flex ml-auto relative">
-          <button type="button" onClick={showPost} className="ml-3">
-            <IconPlus
-              className={classNames(
-                "flex justify-center items-center ml-auto duration-200",
-                {
-                  "rotate-45": isOpenPost,
-                }
-              )}
-            />
-          </button>
+          <IconPlus
+            className={classNames(
+              "flex justify-center items-center ml-auto duration-200",
+              {
+                "rotate-45": isOpenPost,
+              }
+            )}
+          />
         </div>
-      </div>
+      </button>
 
       {isOpenPost ? <p className="text-sm">{answer}</p> : null}
     </div>

@@ -3,20 +3,8 @@ import Image from "next/image";
 
 const HomepageCalendarViewer = () => {
   return (
-    <section className="homepage__calendar--viewer">
-      <div className="container flex justify-center items-center pt-20">
-        <Image
-          src="/images/calendar-img.jpg"
-          alt=""
-          fill
-          draggable={false}
-          style={{
-            objectFit: "cover",
-            opacity: 0.5,
-            filter: "grayscale(100%)",
-          }}
-        />
-
+    <section className="homepage__calendar--viewer w-full py-20 bg-green-950">
+      <div className="container flex justify-center items-center">
         <CalendarView />
       </div>
     </section>

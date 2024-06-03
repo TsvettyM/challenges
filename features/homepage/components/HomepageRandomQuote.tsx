@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const HomepageRandomQuote = () => {
   return (
-    <section className="homepage__random--quote flex relative w-full h-full py-10">
+    <section className="homepage__random--quote flex relative w-full h-full py-40">
       <div className="container flex justify-center items-center w-full h-full">
         <Image
           src="/images/bg-quote-img.png"

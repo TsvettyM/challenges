@@ -32,8 +32,8 @@ const HomepageAccordion = () => {
   ];
 
   return (
-    <section className="homepage__accordion">
-      <div className="container flex flex-col justify-center items-center py-12">
+    <section className="homepage__accordion w-full py-20">
+      <div className="container flex flex-col justify-center items-center w-full">
         <div className="accordion flex flex-col justify-center items-center drop-shadow-lg bg-[#FFFFFE] py-6 h-full w-full max-w-[640px] rounded-md mt-auto">
           <h1 className="text-center text-2xl text-black font-bold">
             Frequently Asked Questions

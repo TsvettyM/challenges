@@ -28,7 +28,7 @@ const HomepageMultiSelectSearch = () => {
   const data = ["1", "2", "3", "4", "5", "6", "7"];
 
   return (
-    <section className="homepage__multiselect--search flex justify-center items-center pt-28 w-full">
+    <section className="homepage__multiselect--search flex justify-center items-center py-40 w-full bg-yellow-950 h-full">
       <div className="multi__select relative w-full max-w-[500px]">
         <div
           className="w-full flex items-center gap-2 h-11 bg-white border border-black rounded-md p-3 text-left"
