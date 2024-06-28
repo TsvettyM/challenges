@@ -20,7 +20,7 @@ const PricingCardBox = ({
   hasDropdown,
 }: IProps) => {
   return (
-    <div className="pricing__card--box flex flex-col justify-center items-center w-[250px] h-auto rounded-lg p-6 bg-[#23232B]">
+    <div className="pricing__card--box flex flex-col justify-center items-center w-full md:w-[240px] h-auto rounded-lg p-6 bg-[#23232B]">
       <h4 className="text-center text-lg font-medium text-white">{title}</h4>
       <p className="text-center text-4xl text-white font-bold py-3">
         {type === "contact" ? (

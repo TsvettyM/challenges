@@ -2,7 +2,7 @@ import BlogCard from "@/features/common/components/BlogCard";
 
 const HomepageBlogCard = () => {
   return (
-    <div className="homepage__blog--card flex flex-col justify-center items-center h-full py-20">
+    <div className="homepage__blog--card w-full bg-[#f2d9bd] flex flex-col justify-center items-center h-full py-20">
       <div className="container flex justify-center items-center h-full">
         <BlogCard
           category="technology"

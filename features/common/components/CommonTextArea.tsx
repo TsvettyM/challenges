@@ -26,7 +26,7 @@ const CommonTextArea = (props: IProps) => {
     <div className="common__input flex flex-col justify-center items-center w-full h-full relative">
       <textarea
         className={classNames(
-          "resize-none w-[400px] h-full font-medium border rounded-md my-3.5 p-3 bg-transparent outline-none",
+          "resize-none w-full h-full font-medium border rounded-md my-3.5 p-3 bg-transparent outline-none",
           {
             [getStyle()]: getStyle,
             [className || ""]: className,

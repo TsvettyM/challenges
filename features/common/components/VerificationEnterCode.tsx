@@ -80,10 +80,10 @@ const VerificationEnterCode = ({ isLoading }: IProps) => {
   );
 
   return (
-    <div className="verification__input flex gap-5 justify-center items-center h-full w-full my-10">
+    <div className="verification__input flex gap-4 sm:gap-12 lg:gap-5 justify-center items-center h-full w-full my-10">
       {code.map((value, index) => (
         <input
-          className="w-[108px] h-[130px] rounded-lg bg-[#1A2036] border-2 border-[#454B63] text-center text-8xl text-[#B2B7D3] outline-none"
+          className="w-[60px] md:w-[90px] lg:w-[108px] h-[70px] sm:h-[90px] md:h-[130px] rounded-lg bg-[#1A2036] border-2 border-[#454B63] text-center text-8xl text-[#B2B7D3] outline-none"
           key={index}
           type="text"
           maxLength={1}

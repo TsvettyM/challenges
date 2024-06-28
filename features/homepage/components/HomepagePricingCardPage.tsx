@@ -26,7 +26,7 @@ const HomepagePricingCardPage = () => {
           </div>
         </div>
 
-        <div className="flex gap-6 mt-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-8 w-full md:max-w-[800px] ">
           <PricingCardBox
             title="Starter"
             price={isMonthly ? 19 : 228}

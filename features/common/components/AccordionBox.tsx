@@ -46,7 +46,7 @@ const AccordionBox = ({ style, question, answer }: IProps) => {
         type="button"
         onClick={showPost}
       >
-        <h4>{question}</h4>
+        <h4 className="text-left">{question}</h4>
 
         <div className="drop__button flex ml-auto relative">
           <IconPlus

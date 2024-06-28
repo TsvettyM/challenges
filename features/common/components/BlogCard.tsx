@@ -23,7 +23,7 @@ const BlogCard = ({
 }: IProps) => {
   return (
     <div className="blog__card flex flex-col justify-start items-start relative bg-white rounded-lg h-full shadow-xl">
-      <div className="profile__image flex relative  w-[400px] h-[300px] ">
+      <div className="profile__image flex relative  w-full h-[300px] ">
         <Image
           className="flex absolute pb-1 rounded-t-lg"
           src={image}

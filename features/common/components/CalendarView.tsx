@@ -69,7 +69,7 @@ const CalendarView = () => {
   }
 
   return (
-    <div className="calendar__view relative max-w-[430px] h-full w-full bg-[#FBFAFF] p-8 rounded-lg shadow-xl">
+    <div className="calendar__view relative w-full max-w-[430px] h-full bg-[#FBFAFF] p-8 rounded-lg shadow-xl">
       <div className="top flex items-center text-2xl mb-8">
         <p className="font-bold mr-2 ">{monthNames[selectedMonth]}</p>
         <p className="font-bold">{selectedYear}</p>
@@ -87,11 +87,11 @@ const CalendarView = () => {
         </button>
       </div>
 
-      <div className="grid grid-cols-7 gap-5">
+      <div className="grid grid-cols-7 gap-3 sm:gap-5">
         {weekdays.map((day, index) => (
           <div
             key={index}
-            className="flex items-center justify-center font-bold mb-3"
+            className="flex items-center justify-center font-bold mb-1 sm:mb-3"
           >
             {day}
           </div>
@@ -100,7 +100,7 @@ const CalendarView = () => {
         {prevMonthDays.map((day) => (
           <div
             key={`prev${day}`}
-            className="flex items-center justify-center text-gray-400 mb-2"
+            className="flex items-center justify-center text-gray-400 mb-0 sm:mb-2"
           >
             {day}
           </div>
@@ -112,7 +112,7 @@ const CalendarView = () => {
             type="button"
             onClick={() => handleSelectedDay(day)}
             className={classNames(
-              "flex size-8 items-center justify-center mb-2",
+              "flex size-6 sm:size-8 items-center justify-center mb-0 sm:mb-2",
               {
                 "bg-[#7049F5] text-white rounded-full": day === selectedDay,
               }

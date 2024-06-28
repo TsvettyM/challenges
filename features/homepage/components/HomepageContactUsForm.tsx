@@ -29,7 +29,7 @@ const HomepageContactUsForm = () => {
           className="flex flex-col justify-center items-center bg-white w-full max-w-[550px] space-y-3 px-6 py-14 rounded-md"
           onSubmit={handleSubmit(onSubmit)}
         >
-          <h2 className="text-3xl text-black font-bold my-3">
+          <h2 className="text-3xl text-center text-black font-bold my-3">
             Send me a message
           </h2>
           <p className="text-center text-sm text-[#737375] max-w-[470px]">
@@ -93,7 +93,7 @@ const HomepageContactUsForm = () => {
             type="submit"
             style="bluePurple"
             title="Send"
-            className="w-[400px] text-lg text-white font-medium text-center rounded-md"
+            className="w-full text-lg text-white font-medium text-center rounded-md"
           />
         </form>
       </div>

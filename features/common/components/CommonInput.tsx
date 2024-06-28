@@ -17,7 +17,7 @@ const CommonInput = (props: IProps) => {
     <div className="common__input flex flex-col justify-center items-center relative h-full w-full">
       <input
         className={classNames(
-          "w-[400px] mt-3.5 h-full bg-white p-3 font-medium rounded-md border border-black/10 outline-none",
+          "w-full mt-3.5 h-full bg-white p-3 font-medium rounded-md border border-black/10 outline-none",
           { [className ?? ""]: className }
         )}
         {...hookRegister}
