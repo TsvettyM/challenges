@@ -21,7 +21,9 @@ const CalendarView = () => {
         selectedMonth,
         0
       ).getDate();
-      return prevMonthLastDay - firstDayOfMonth + i + 2;
+      return (
+        prevMonthLastDay - (firstDayOfMonth === 0 ? 6 : firstDayOfMonth - 1) + i
+      );
     }
   );
 
